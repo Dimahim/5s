@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="ru">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Салон красоты "Форма"</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=1100">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="js/vendor/jquery.fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body>
+
+        <div class="top clearfix">
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="contact">
+                    <a class="phone" href="tel_3A70000000000">8(000)000-00-00</a>
+                    <a href="#callback" class="btn btn-sm btn-modal ">Заказать обратный звонок</a>
+                </div>
+                <ul class="topnav">
+                    <li><a href="#b03">Наши услуги </a></li>
+                    <li><a href="#b08">почему мы</a></li>
+                    <li><a href="#b07">отзывы</a></li>
+                    <li><a href="#b10">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="label"></div>
+
+
+        <section class="b01" id="b01">
+            <div class="container">
+                <h1>салон красоты премиум класса<br/>по доступным ценам в вашем городе!</h1>
+                <div class="text">Профессиональный уход за Вашей внешностью</div>
+                <div class="form-wrap">
+                    <div class="form-block">
+                        <div class="form-title">Заполните заявку в форме ниже</div>
+                        <div class="form-text">и получите скидку 10% на любые наши услуги<br/><span></span></div>
+                        <form class="form" name="form" method="POST" action="call.php">
+                            <input type="hidden" name="type" value="Пуличить скидку 10% (1)">
+                            <div class="form-group valid name none required">
+                                <input type="text" required class="form-control" name="name" placeholder="Введите Ваше имя">
+                            </div>
+                            <div class="form-group valid phone none required">
+                                <input type="text" required name="phone" class="form-control"  placeholder="Введите Ваш телефон">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-green btn-send">получить скидку 10 %</button>
+                            </div>
+                        </form>
+                        <div class="action-title">Акция действует всего 3 дня!</div>
+                        <div class="action">
+                            <div class="action-text">До конца акции осталось:</div>
+                            <div class="timer timer-one clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="sup">Мы гарантируем вам 100% конфиденциальность</div>
+                    <span class="secret"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="b02" id="b02">
+            <div class="container">
+                <ul class="tile">
+                    <li class="item1">
+                        сертифицированные
+                        <br/>специалисты по уходу за
+                        <br/>вашей внешностью
+                    </li>
+                    <li class="item2">
+                        современное оборудование
+                        <br/>и профессиональная
+                        <br/>косметика
+                    </li>
+                    <li class="item3">
+                        4 года
+                        <br/>успешной работы
+                    </li>
+                    <li class="item4">
+                        более 1976
+                        <br/>довольных клиентов
+                    </li>
+                    <li class="item5">
+                        следим за всеми новинками
+                        <br/>индустрии красоты
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="b03" id="b03">
+            <div class="container">
+                <div class="h2">наши услуги по созданию<br/>идеального образа</div>
+                <ul class="service clearfix">
+                    <li class="item1">
+                        <div class="inner">
+                            <div class="service-box">
+                                <div class="service-name">стрижка, укладка</div>
+                                <div class="service-price">от <span>700</span> руб.</div>
+                                <p>
+                                    Выполнение модных женских и мужских стрижек на любую длину, укладки вечерние, коктейльные
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item2">
+                        <div class="inner">
+                            <div class="service-box">
+                                <div class="service-name">Маникюр, педикюр</div>
+                                <div class="service-price">от <span>600</span> руб.</div>
+                                <p>
+                                    Все инструменты в Keune Lab проходят многоступенчатую систему очищения,дезинфекции и стерилизации в индивидуальных крафт-пакетах,которые вскрываются при Вас.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item3">
+                        <div class="inner">
+                            <div class="special">Специальное<br/>предложение!</div>
+                            <div class="service-box">
+                                <div class="service-name">уход за волосами</div>
+                                <div class="service-price">от <span>1000</span> руб.</div>
+                                <p>
+                                    Кератиновое выпрямление, молекулярное глянцевание, шайнинг, AquaPlastica волос с гиалуроновой кислотой, Olaplex, 3D реконструкция волос и многое другое. 
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item4">
+                        <div class="inner">
+                            <div class="service-box">
+                                <div class="service-name">Окрашивание</div>
+                                <div class="service-price">от <span>2000</span> руб.</div>
+                                <p>
+                                    Выполнение различных техник окрашивания: брондирование, омбрэ, сомбрэ, мелирование,балаяж, шатуш
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item5">
+                        <div class="inner">
+                            <div class="service-box">
+                                <div class="service-name">Депиляция</div>
+                                <div class="service-price">от <span>400</span> руб.</div>
+                                <p>
+                                    Шугаринг (сахарная эпиляция) и Депиляция воском
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item6">
+                        <div class="inner">
+                            <div class="item-icon">
+                                <img src="img/b03_icon.png" alt="">
+                            </div>
+                            <div class="item-title">Гарантируем 100%<br/>качество</div>
+                            <p>У нас работаю только сертифицированные сотрудники с большим опытом работ!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section class="b04" id="b04">
+            <div class="container">
+                <div class="heading">
+                    <div class="h2">наша лаборатория красоты</div>
+                    <div class="subtitle">Мы всегда открыты для наших клиентов, используем самые современные<br/>технологии и косметику в индустрии красоты</div>
+                </div>
+                <div class="lab clearfix">
+                    <div class="lab-item">
+                        <img src="img/b04_item1.jpg" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item2.jpg" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item3.jpg" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item4.jpg" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item5.JPG" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item6.JPG" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item7.JPG" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item8.JPG" alt="">
+                    </div>
+                    <div class="lab-item">
+                        <img src="img/b04_item9.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="b05" id="b05">
+            <div class="container">
+                <div class="h2">Мы уверены в качестве наших услуг и хотим,<br/>чтобы Вы убедились в этом сами!</div>
+                <div class="form-wrap">
+                    <div class="form-block">
+                        <div class="form-title">Заполните заявку в форме ниже</div>
+                        <div class="form-text">и получите скидку 10% на любые наши услуги<br/><span></span></div>
+                        <form class="form" name="form" method="POST" action="call.php">
+                            <input type="hidden" name="type" value="Пуличить скидку 10 % (2)">
+                            <div class="form-group valid name none required">
+                                <input type="text" required class="form-control" name="name" placeholder="Введите Ваше имя">
+                            </div>
+                            <div class="form-group valid phone none required">
+                                <input type="text" required name="phone" class="form-control"  placeholder="Введите Ваш телефон">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-green btn-send">получить скидку 10 %</button>
+                            </div>
+                        </form>
+                        <div class="action-title">Акция действует всего 3 дня!</div>
+                        <div class="action">
+                            <div class="action-text">До конца акции осталось:</div>
+                            <div class="timer timer-two clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="sup">Мы гарантируем вам 100% конфиденциальность</div>
+                    <span class="secret">Ваши данные не будут переданы 3 лицам</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="b06" id="b06">
+            <div class="container">
+                <div class="h2">наша команда профессиональных специалистов</div>
+                <ul class="command clearfix">
+                    <li class="item1">
+                        <div class="command-image">
+                            <img class="img-responsive" src="img/b06_item1.png" alt="">
+                        </div>
+                        <div class="command-name">Петрова Надежда</div>
+                        <div class="command=position">
+                             Парикмахер - колорист
+                            <br/>Опыт работы - более 7 лет
+                        </div>
+                        <p>
+                            Диплом парикмахера - стилиста. Обучение “Современные тенденции женской салонной и уличной моды в стрижках и окрашивании волос“; курс колористики, Семинары по восстановление волос с эффектом выпрямления. Прошла курс колористики по сложным техникам окрашивания, подиумный мастер. 
+                        </p>
+                        <a href="images/cert/001.jpg" class="btn btn-sm btn-modal">Сертификат</a>
+                    </li>
+                    <li class="item2">
+                        <div class="command-image">
+                            <img class="img-responsive" src="img/b06_item2.png" alt="">
+                        </div>
+                        <div class="command-name">Петров Александр</div>
+                        <div class="command=position">
+                            Мужской парикмахер - барбер
+                            <br/>Опыт работы - более 6 лет
+                        </div>
+                        <p>
+                            Обучение "Модные направления в мужских стрижках", BARBER EXPERT, бритье, оформление и дизайн бороды. 
+                        </p>
+                        <a href="images/cert/002.jpg" class="btn btn-sm btn-modal">Сертификат</a>
+                    </li>
+                    <li class="item3">
+                        <div class="command-image">
+                            <img class="img-responsive" src="img/b06_item3.png" alt="">
+                        </div>
+                        <div class="command-name">Петрова Ольга</div>
+                        <div class="command=position">
+                                
+                          Специалист ногтевого сервиса
+                            <br/>Опыт работы - более 3 лет
+                        </div>
+                        <p>
+                            Специалист с медицинским образованием. Курс по маникюру и педикюру, SPA-уходы за руками и ногами, прошла обучение по аппаратному педикюру. Повышение квалификации
+                        </p>
+                        <a href="images/cert/003.jpg" class="btn btn-sm btn-modal">Сертификат</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="b07" id="b07">
+            <div class="container">
+                <div class="h2">наша гордость<br/>Благодарность наших клиентов</div>
+                <div class="review clearfix">
+
+                    <div class="review-item">
+
+                        <div class="review-box clearfix left">
+                            <div class="review-photo">
+                                <img class="img-responsive" src="images/review01.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <div class="review-title">Получилось просто супер! </div>
+                                <p>
+                                    Хочу сказать спасибо мастерам за процедуру Кератиновый прикорневой объём, которая помогла мне с моими тонкими и мягкими волосами решить проблему ежедневной укладки. При этом волосы стали меньше грязниться и теперь их надо реже мыть и укладывать. И хотя делала прикорневой объём три месяца назад лёгкость укладки и объём продолжают радовать. Обязательно повторю!
+                                </p>
+                                <ul class="review-info">
+                                    <li><span class="review-author">Антонина, <span>Воронеж</span></span></li>
+                                    <li><a class="btn-vk" href="#" target="_blank">Написать в <i class="fa fa-vk"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="review-box clearfix right">
+                            <div class="review-photo">
+                                <img class="img-responsive" src="images/review02.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <div class="review-title">Очень доволен своей стрижкой </div>
+                                <p>
+                                    Влюбился в это место.. действительно отличное..Интерьер приятный, уютно) Мастеров там видимо всех подбирают хороших, профессионалов. Действительно отдохнул)) и получил массу положительных эмоций, от общения и результата работы мастера. У Вас +1 постоянный клиент! К вам приятно возвращаться! Отдельное спасибо мастерам!)
+                                </p>
+                                <ul class="review-info">
+                                    <li><span class="review-author">Антонина, <span>Воронеж</span></span></li>
+                                    <li><a class="btn-vk" href="#" target="_blank">Написать в <i class="fa fa-vk"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="review-box clearfix left">
+                            <div class="review-photo">
+                                <img class="img-responsive" src="images/review03.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <div class="review-title">Специалисты просто класс! </div>
+                                <p>
+                                    После пересушек феном и утюжком, и скорее всего неправильным уходом, мои волосы стали выглядеть сухими, ломаться и сечься. С этой проблемой я и пришла, где мне посоветовали сделать "Боткс для волос" ( в который я не до конца верила, а зря!) После этой процедуры волосы стали мягкими и шелковистыми, легко поддаются укладке. а самое главное теперь не доставляют дискомфорт и выглядят как здоровые волосы.
+                                </p>
+                                <ul class="review-info">
+                                    <li><span class="review-author">Антонина, <span>Воронеж</span></span></li>
+                                    <li><a class="btn-vk" href="#" target="_blank">Написать в <i class="fa fa-vk"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+
+                        <div class="review-box clearfix left">
+                            <div class="review-photo">
+                                <img class="img-responsive" src="images/review04.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <div class="review-title">Большое спасибо Ольге </div>
+                                <p>
+                                    Я считаю, главное в отзыве – это Ваше желание написать, рассказать о человеке и его мастерстве! Не часто даю свою оценку вот так открыто, так как оценка уже сам факт, что являюсь постоянным и неизменным клиентом очень хорошего мастера - ОЛЬГИ. Могу и Вам посоветовать, если Вы хотите качественное обслуживание, должное внимание и приятного собеседника во время маникюра, то вам верная дорога к Олечке. Очень нравится, что делает очень аккуратно и качественно.
+                                </p>
+                                <ul class="review-info">
+                                    <li><span class="review-author">Антонина, <span>Воронеж</span></span></li>
+                                    <li><a class="btn-vk" href="#" target="_blank">Написать в <i class="fa fa-vk"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="review-box clearfix right">
+                            <div class="review-photo">
+                                <img class="img-responsive" src="images/review05.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <div class="review-title">Спасибо за атмосферу </div>
+                                <p>
+                                    Невозможно не любить этот салон. здесь тебе и неповторимый образ, и суперобслуживание, и душевная атмосфера. Всем очень советую а мастеру Надежде отдельный респект!!!! Выслушает пожелания, посоветует, как лучше, подберёт цвет, с которым именно тебе будет комфортно и который оценят окружающие. Вообщем, без улыбки и хорошего настроения точно никогда не ухожу. Спасииибо
+                                </p>
+                                <ul class="review-info">
+                                    <li><span class="review-author">Антонина, <span>Воронеж</span></span></li>
+                                    <li><a class="btn-vk" href="#" target="_blank">Написать в <i class="fa fa-vk"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="review-box clearfix left">
+                            <div class="review-photo">
+                                <img class="img-responsive" src="images/review06.jpg" alt="">
+                            </div>
+                            <div class="review-text">
+                                <div class="review-title">Хорошие мастера </div>
+                                <p>
+                                    Александр достаточно креативно, четко, грамотно, и самое главное — удовлетворив мои ожидания, показал себя реально как крутой профессионал своего дела!!
+                                </p>
+                                <ul class="review-info">
+                                    <li><span class="review-author">Антонина, <span>Воронеж</span></span></li>
+                                    <li><a class="btn-vk" href="#" target="_blank">Написать в <i class="fa fa-vk"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="images/logo.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="b08" id="b08">
+            <div class="container">
+                <div class="h2">почему все таки нужно выбрать нас</div>
+                <div class="clearfix">
+                    <div class="list invalid">
+                        <div class="list-title">проблемы большинства салонов красоты</div>
+                        <ul>
+                            <li>
+                                <span>Слишком высокая стоимость предоставляемых услуг, которая часто не соответствует качеству.</span>
+                            </li>
+                            <li>
+                                <span>Низкий уровень гигиены и чистоты.</span>
+                            </li>
+                            <li>
+                                <span>Использование некачественных материалов.</span>
+                            </li>
+                            <li>
+                                <span>Непрофессионализм мастеров.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="list valid">
+                        <div class="list-title">почему таких проблем нет у нас</div>
+                        <ul>
+                            <li>
+                                <span>Мы дорожим своими постоянными клиентами. Качество предоставляемых нами услуг гораздо выше цен на них.</span>
+                            </li>
+                            <li>
+                                <span>Тщательно соблюдем санитарные нормы. Внимательно следим за состоянием инструментов, оборудования и помещений.</span>
+                            </li>
+                            <li>
+                                <span>Работаем только с надёжными брендами. Наши материалы многократно доказали свою эффективность.</span>
+                            </li>
+                            <li>
+                                <span>Наша команда занимается любимым делом много лет. Постоянно повышаем уровень мастерства, применяя новые техники, посещая мастер – классы.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="b09" id="b09">
+            <div class="container">
+                <div class="h2">Мы уверены в качестве наших услуг и хотим,<br/>чтобы Вы убедились в этом сами!</div>
+                <div class="form-wrap">
+                    <div class="form-block">
+                        <div class="form-title">Заполните заявку в форме ниже</div>
+                        <div class="form-text">и получите скидку 10% на любые наши услуги<br/><span></span></div>
+                        <form class="form" name="form" method="POST" action="call.php">
+                            <input type="hidden" name="type" value="получить скидку 10 % (3)">
+                            <div class="form-group valid name none required">
+                                <input type="text" required class="form-control" name="name" placeholder="Введите Ваше имя">
+                            </div>
+                            <div class="form-group valid phone none required">
+                                <input type="text" required name="phone" class="form-control"  placeholder="Введите Ваш телефон">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-green btn-send">получить скидку 10 %</button>
+                            </div>
+                        </form>
+                        <div class="action-title">Акция действует всего 3 дня!</div>
+                        <div class="action">
+                            <div class="action-text">До конца акции осталось:</div>
+                            <div class="timer timer-three clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="sup">Мы гарантируем вам 100% конфиденциальность</div>
+                    <span class="secret">Ваши данные не будут переданы 3 лицам</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="b10" id="b10">
+            <div id="map">
+			
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5Tq1TDwijGAj8iZ75jc_CY1fH02TzUeW&width=100%&height=100%&lang=ru_UA&sourceType=constructor&scroll=true"></script>
+			
+			</div>
+            <div class="content">
+                <div class="container">
+                    <div class="address">
+                        <div class="address-title">Контакты</div>
+                        <ul>
+                            <li class="item1"><i class="fa fa-street-view"></i> Адрес: Город, улица, номер дома</li>
+                            <li class="item2"><i class="fa fa-envelope"></i> Email: <a href="mailto:mail@mail.ru">mail@mail.ru</a></li>
+                            <li class="item3"><i class="fa fa-clock-o"></i> Время работы:  10:00 - 22:00</li>
+                        </ul>
+                        <div class="address-bottom">
+                            <a href="#callback" class="btn btn-sm btn-modal">Остались вопросы?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer-content clearfix">
+                    <li class="item1">
+                        <img src="img/footer-logo.png" alt="">
+                       
+                    </li>
+                    <li class="item2 text-center">
+                      
+					  
+                    </li>
+                    <li class="item3">
+                        <div class="contact">
+                            <a class="phone" href="tel_3A78(000)000-00-00">8(000)000-00-00</a>
+                            <a href="#callback" class="btn btn-sm btn-modal ">Заказать обратный звонок</a>
+                        </div>
+                        <ul class="social clearfix">
+                            <li><span>Мы в соцсетях</span></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
+        <!-- Заказать обратный звонок -->
+        <div class="hide">
+            <div class="modal-form" id="callback">
+                <div class="form-block">
+                    <div class="form-title">Заполните заявку в форме ниже</div>
+                    <div class="form-text">и мы перезвоним вам <br/>в ближайшие время<span></span></div>
+                    <form class="form" name="form" method="POST" action="call.php">
+                        <input type="hidden" name="type" value="Заказать обратный звонок">
+                        <div class="form-group valid name none required">
+                            <input type="text" required class="form-control" name="name" placeholder="Введите Ваше имя">
+                        </div>
+                        <div class="form-group valid phone none required">
+                            <input type="text" required name="phone" class="form-control"  placeholder="Введите Ваш телефон">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-send">Заказать звонок</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="../api-maps.yandex.ru/2.1/@lang=ru_RU" type="text/javascript"></script>
+        <script src="js/vendor/jquery.fancybox/jquery.fancybox.pack.js"></script>
+        <script src="js/vendor/slick/slick.min.js"></script>
+        <script src="js/vendor/countdown_sg.js"></script>
+        <script src="js/vendor/jquery.maskedinput.min.js"></script>
+        <script src="js/vendor/validator.js"></script>
+        <script src="js/main.js"></script>
+
+
+
+    
+    </body>
+</html>
